@@ -44,22 +44,6 @@ export default function Home() {
             <span className="text-gray-800">Stay in Loop</span>
           </h1>
         </div>
-
-        {/* Call to Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 mb-16 md:mb-20">
-          <button
-            onClick={navigateRegister}
-            className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-          >
-            Get started
-          </button>
-          <button
-            onClick={navigateLogin}
-            className="bg-white/90 hover:bg-white text-purple-600 font-semibold px-8 py-4 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl backdrop-blur-sm"
-          >
-            Login
-          </button>
-        </div>
       </div>
 
       {/* Social Media Icons */}
