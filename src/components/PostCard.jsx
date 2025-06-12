@@ -24,7 +24,7 @@ export default function PostCard({ post, onLikeToggle }) {
         <img
           src={post.photoUrl.url}
           alt=""
-          className="mt-2 rounded max-h-80 w-full object-cover"
+          className="mt-2 rounded max-h-80 w-full  object-contain"
         />
       )}
       <div className="mt-2 flex items-center space-x-4 text-black/80">
